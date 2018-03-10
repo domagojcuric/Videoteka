@@ -2,7 +2,7 @@
 
 @section('content');
 
-<h1>Unos filmova</h1>
+<h1>Unos filmo</h1>
 
 {!! Form::open(['action' => 'MoviesController@store', 'method' => 'POST','enctype' => 'multipart/form-data']) !!}
     <div class = 'form-group'>
